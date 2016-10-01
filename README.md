@@ -22,7 +22,7 @@ For information, ClaCss is a component of [Basesign]() which provide clever css 
 7. [Width](#user-content-width)
 
 ### Download
-    bower ClaCss
+    bower install ClaCss
  
  or check [project's website](https://idkn.github.io/ClaCss)
 
