@@ -109,11 +109,11 @@ Using ```bs-padding_value``` where ```value``` can be written as you write it us
 
 Using ```bs-w_value``` where ```value``` can be written as you write it usually. It can be in px, in %, etc
 
-## License
+# License
 [![N|Solid](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/)
 
 Creative Commons License
 ClaCss by Guillaume Bonnet [@idkn on Github](https://github.com/idkn) is licensed under a Creative Commons Attribution-ShareAlike 4.0 International License.
 
-## Improvement
+# Improvement
 Check code. Write code. Push code.
