@@ -52,7 +52,8 @@ If you're more interested, check *documentation*.
 # Documentation
 ## Borders
 
--[1.1](#border) **Border**: Basic of border.
+  <a name="borders"></a><a name="1.1"></a>
+-[1.1](#borders) **Border**: Basic of border.
   
 By using ```bs-border_value``` where ```value``` can be written as this : ```1px-solid-red```. It's will be a border of 1px with solid pixel in red color. 
 
