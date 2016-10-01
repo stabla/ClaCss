@@ -22,10 +22,10 @@ For information, ClaCss is a component of [Basesign]() which provide clever css 
 7. [Width](#user-content-width)
 
 ### Download
-    bower clacss
+    bower ClaCss
 
 ### Installation
-    <script href="clacss.js"></script>
+    <script href="ClaCss.js"></script>
 
 Just locate the js file, and let the magic explain itself (and write class, magic need little help)
 
