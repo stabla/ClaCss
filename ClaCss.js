@@ -64,11 +64,12 @@ class r {
         
         for(var i = 0; i < 5; i++) {
             if (c(border_arr[i].length, border_arr[i])) {
-                ch(border_arr[i].length, border_arr[0] + [i], 1);
+                ch(border_arr[i].length, border_arr[0] + round_arr[i], 1);
             }
         }
         if (c(ftsz_l, ftsz)) {
             ch(ftsz_l, 'fontSize')
+            
         }
         if (c(col_l, color)) {
             ch(col_l, 'color');
@@ -113,9 +114,9 @@ function joinAndRecognize(arrLetters, arrResult) {
 
     var c = new r();
     c.recognize(resultRegrouped);
-
+    
     fillWithLetters = [],
-        resultRegrouped = [];
+    resultRegrouped = [];
 }
 function checkPosition(string, pos) {
     for (var i = pos; b != true; i++) {
