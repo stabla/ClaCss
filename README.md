@@ -55,72 +55,72 @@ If you're more interested, check *documentation*.
 ## Borders
 
   <a name="#borders-border"></a><a name="1.1"></a>
--[1.1](#borders-border) **Border**: Basic of border.
+[1.1](#borders-border) **Border**: Basic of border.
   
 By using ```bs-border_value``` where ```value``` can be written as this : ```1px-solid-red```. It's will be a border of 1px with solid pixel in red color. 
 
 <a name="#border-t"></a><a name="1.2"></a>
--[1.2](#border-t) **Border Top**: Top border.
+[1.2](#border-t) **Border Top**: Top border.
 
 Using ```bs-border-t_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-r"></a><a name="1.3"></a>
--[1.3](#border-r) **Border Right**: Right border.
+[1.3](#border-r) **Border Right**: Right border.
 
 Using ```bs-border-r_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-b"></a><a name="1.4"></a>
--[1.4](#border-b) **Border Bottom**: Bottom border.
+[1.4](#border-b) **Border Bottom**: Bottom border.
 
 Using ```bs-border-b_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-l"></a><a name="1.5"></a>
--[1.5](#border-l) **Border left**: Left border.
+[1.5](#border-l) **Border left**: Left border.
 
 Using ```bs-border-l_value``` where ```value``` can be written as the same way is [1.1](#border)
 ## Font
 <a name="#font-size"></a><a name="2.1"></a>
--[2.1](#font-size) **Font Size**: Set font size.
+[2.1](#font-size) **Font Size**: Set font size.
 
 Using ```bs-t-size_value``` where ```value``` can be written in px, em, rem, %, you've understand, it's as you want.
 
 <a name="#font-weight"></a><a name="2.2"></a>
--[2.2](#font-weight) **Font weight**: Set font weight.
+[2.2](#font-weight) **Font weight**: Set font weight.
 
 Using ```bs-t-weight_value``` where ```value``` can be written as you write font-weight generally.
 ## Colors
 <a name="#color"></a><a name="3.1"></a>
--[3.1](#color) **Colors**: Set color.
+[3.1](#color) **Colors**: Set color.
 
 Using ```bs-c_value``` where ```value``` can be written in color name (red, blue, green) or in hexa (#fff, #123456, etc), or in rgb/rgba.
 
 <a name="#background-color"></a><a name="3.2"></a>
--[3.2](#background-color) **Background-color**: Set background-color.
+[3.2](#background-color) **Background-color**: Set background-color.
 
 Using ```bs-bg-c_value``` where ```value``` can be written as you write it usually.
 ## Height
 <a name="#height"></a><a name="4.1"></a>
--[4.1](#height) **Height**: Set height.
+[4.1](#height) **Height**: Set height.
 
 Using ```bs-h_value``` where ```value``` can be written as you write it usually. It can be in px, in %, etc
 ## Margin
 <a name="#margin"></a><a name="5.1"></a>
--[5.1](#margin) **Margin**: Set margin.
+[5.1](#margin) **Margin**: Set margin.
 
-Using ```bs-margin_value``` where ```value``` can be written as you write it usually. Example ? ```bs-margin_15px```. Percentage is working too.
+Using ```bs-ma_value``` where ```value``` can be written as you write it usually. Example ? ```bs-ma_15px```. Percentage is working too.
 
-**Multiple example** : ```bs-margin_12px-23px``` or ```bs-margin_10px-15px-20px``` or ```bs-margin_5px-10px-15px-20px```
+**Multiple example** : ```bs-ma_12px-23px``` or ```bs-ma_10px-15px-20px``` or ```bs-ma_5px-10px-15px-20px```
 
 ## Padding
 <a name="#padding"></a><a name="6.1"></a>
--[6.1](#padding) **Padding**: Set padding.
+[6.1](#padding) **Padding**: Set padding.
 
-Using ```bs-padding_value``` where ```value``` can be written as you write it usually. Example ? ```bs-padding_15px```. Percentage is working too.
+Using ```bs-pa_value``` where ```value``` can be written as you write it usually. Example ? ```bs-pa_15px```. Percentage is working too.
 
-**Multiple example** : ```bs-padding_12px-23px``` or ```bs-padding_10px-15px-20px``` or ```bs-padding_5px-10px-15px-20px```
+**Multiple example** : ```bs-pa_12px-23px``` or ```bs-pa_10px-15px-20px``` or ```bs-pa_5px-10px-15px-20px```
 ## Width
 <a name="#width"></a><a name="7.1"></a>
--[7.1](#width) **Width**: Set Width.
+[7.1](#width) **Width**: Set width.
 
 Using ```bs-w_value``` where ```value``` can be written as you write it usually. It can be in px, in %, etc
 
