@@ -7,15 +7,16 @@
 // Follow me on Github : @idkn
 
 
-const bs_ = "bs-";
+const bs_ = "bs-"
 
-const   border_arr = ['border', 'border-t', 'border-r', 'border-b', 'border-l'],
+const   borderStr = 'border',
+        border_arr = ['bo', 'b-t', 'b-r', 'b-b', 'b-l'],
         bgcol = 'bg-c',
         color = 'c',
         ftsz = 't-size',
         ftwt = 't-weight',
-        mrgn = 'margin',
-        pddng = 'padding',
+        mrgn = 'ma',
+        pddng = 'pa',
         height = 'h',
         width = 'w';
 
@@ -64,7 +65,7 @@ class r {
         
         for(var i = 0; i < 5; i++) {
             if (c(border_arr[i].length, border_arr[i])) {
-                ch(border_arr[i].length, border_arr[0] + round_arr[i], 1);
+                ch(border_arr[i].length, borderStr + round_arr[i], 1);
             }
         }
         if (c(ftsz_l, ftsz)) {
