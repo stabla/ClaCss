@@ -82,12 +82,12 @@ Using ```bs-bo-l_value``` where ```value``` can be written as the same way is [1
 <a name="#font-size"></a><a name="2.1"></a>
 [2.1](#font-size) **Font Size**: Set font size.
 
-Using ```bs-t-size_value``` where ```value``` can be written in px, em, rem, %, you've understand, it's as you want.
+Using ```bs-f-size_value``` where ```value``` can be written in px, em, rem, %, you've understand, it's as you want.
 
 <a name="#font-weight"></a><a name="2.2"></a>
 [2.2](#font-weight) **Font weight**: Set font weight.
 
-Using ```bs-t-weight_value``` where ```value``` can be written as you write font-weight generally.
+Using ```bs-f-weight_value``` where ```value``` can be written as you write font-weight generally.
 ## Colors
 <a name="#color"></a><a name="3.1"></a>
 [3.1](#color) **Colors**: Set color.
