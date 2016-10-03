@@ -57,27 +57,27 @@ If you're more interested, check *documentation*.
   <a name="#borders-border"></a><a name="1.1"></a>
 [1.1](#borders-border) **Border**: Basic of border.
   
-By using ```bs-border_value``` where ```value``` can be written as this : ```1px-solid-red```. It's will be a border of 1px with solid pixel in red color. 
+By using ```bs-bo_value``` where ```value``` can be written as this : ```1px-solid-red```. It's will be a border of 1px with solid pixel in red color. 
 
 <a name="#border-t"></a><a name="1.2"></a>
 [1.2](#border-t) **Border Top**: Top border.
 
-Using ```bs-border-t_value``` where ```value``` can be written as the same way is [1.1](#border)
+Using ```bs-bo-t_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-r"></a><a name="1.3"></a>
 [1.3](#border-r) **Border Right**: Right border.
 
-Using ```bs-border-r_value``` where ```value``` can be written as the same way is [1.1](#border)
+Using ```bs-bo-r_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-b"></a><a name="1.4"></a>
 [1.4](#border-b) **Border Bottom**: Bottom border.
 
-Using ```bs-border-b_value``` where ```value``` can be written as the same way is [1.1](#border)
+Using ```bs-bo-b_value``` where ```value``` can be written as the same way is [1.1](#border)
 
 <a name="#border-l"></a><a name="1.5"></a>
 [1.5](#border-l) **Border left**: Left border.
 
-Using ```bs-border-l_value``` where ```value``` can be written as the same way is [1.1](#border)
+Using ```bs-bo-l_value``` where ```value``` can be written as the same way is [1.1](#border)
 ## Font
 <a name="#font-size"></a><a name="2.1"></a>
 [2.1](#font-size) **Font Size**: Set font size.
