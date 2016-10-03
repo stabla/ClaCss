@@ -34,7 +34,7 @@ Just locate the js file, and let the magic explain itself (and write class, magi
 ### Example
 Want to make color on a div really fast ? 
 ```
-<div class="bs-color_#333"> </div
+<div class="bs-c_#333"> </div
 ```
 
 Yeah! Color #333 is now applied.
