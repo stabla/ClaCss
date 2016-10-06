@@ -55,7 +55,7 @@ Yeah! Color #333 is now applied.
 If you haven't understood example, here's some explanation. bs- is for the structure, color is the property, _ is for spacing, but you can already use  '**-**'  if you want. And #333 is value.
 
 If you have multiple property's value use '**-**' to space each value.
-Multiple's value example : bs-ma_12px-23px or bs-ma_10px-15px-20px or bs-ma_5px-10px-15px-20px
+Multiple's value example : ```bs-ma_12px-23px``` or ```bs-ma_10px-15px-20px``` or ```bs-ma_5px-10px-15px-20px```
 
 When you're using multiple values but it's an javascript's style object, like for example ```bs-transition_value``` add ```-1``` or  ```_1``` to specify that is a multiple value. 
 
