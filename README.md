@@ -13,7 +13,7 @@ It's light but	nevertheless insane.
 
 For information, ClaCss is a component of [Basesign]() which provide clever css classes to use, and write less css as possible. But you can also use ClaCss.js if you don't use [Basesign]().
 
-I don't recomment to use this on big project. CSS's files are better. It's for little project.
+I don't recommend to use this on big project. CSS's files are better. It's for little project.
 
 
 ## Table of contents
