@@ -17,21 +17,21 @@ I don't recommend to use this on big project. CSS's files are better. It's for l
 
 
 ## Table of contents
-1. [General & Global](#general--global)
-2. [Borders](#borders)
-3. [Fonts](#fonts)
-4. [Colors & Background's Color](#colors--backgrounds-color)
-5. [Display](#display)
-6. [Height](#height)
-7. [Margin](#margin)
-8. [Overflow](#overflow)
-9. [Padding](#padding)
-10. [Position](#position)
-11. [Text-align](#text-align)
-12. [Vertical-align](#vertical-align)
-13. [Width](#width)
+1. [General & Global](#user-content-general--global)
+2. [Borders](#user-content-borders)
+3. [Fonts](#user-content-fonts)
+4. [Colors & Background's Color](#user-content-colors--backgrounds-color)
+5. [Display](#user-content-display)
+6. [Height](#user-content-height)
+7. [Margin](#user-content-margin)
+8. [Overflow](#user-content-overflow)
+9. [Padding](#user-content-padding)
+10. [Position](#user-content-position)
+11. [Text-align](#user-content-text-align)
+12. [Vertical-align](#user-content-vertical-align)
+13. [Width](#user-content-width)
 
-14. [Hover](#hover)
+14. [Hover](#user-content-hover)
 
 ### Download
     bower install ClaCss
