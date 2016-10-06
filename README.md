@@ -17,21 +17,21 @@ I don't recommend to use this on big project. CSS's files are better. It's for l
 
 
 ## Table of contents
-1. [General](#user-content-general)
-2. [Borders](#user-content-borders)
-3. [Fonts](#user-content-font)
-4. [Colors & Background's Color](#user-content-colors)
-5. [Display](#user-content-display)
-6. [Height](#user-content-height)
-7. [Margin](#user-content-margin)
-8. [Overflow](#user-content-overflow)
-9. [Padding](#user-content-padding)
-10. [Position](#user-content-position)
-11. [Text-align](#user-content-text-align)
-12. [Vertical-align](#user-content-vertical-align)
-13. [Width](#user-content-width)
+1. [General & Global](#general--global)
+2. [Borders](#borders)
+3. [Fonts](#fonts)
+4. [Colors & Background's Color](#colors--backgrounds-color)
+5. [Display](#display)
+6. [Height](#height)
+7. [Margin](#margin)
+8. [Overflow](#overflow)
+9. [Padding](#padding)
+10. [Position](#position)
+11. [Text-align](#text-align)
+12. [Vertical-align](#vertical-align)
+13. [Width](#width)
 
-14. [Hover](#user-content-hover)
+14. [Hover](#hover)
 
 ### Download
     bower install ClaCss
@@ -182,7 +182,7 @@ Using ```bs-h_value``` where ```value``` can be written as you write it usually.
 Using ```bs-ma_value``` where ```value``` can be written as you write it usually. Example ? ```bs-ma_15px```. Percentage is working too.
 
 **Multiple example** : ```bs-ma_12px-23px``` or ```bs-ma_10px-15px-20px``` or ```bs-ma_5px-10px-15px-20px```
-## 0verflow
+## Overflow
 <a name="#overflow"></a><a name="8.1"></a>
 [8.1](#overflow) **Height**: Set overflow.
 
