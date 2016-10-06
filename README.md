@@ -17,10 +17,10 @@ I don't recommend to use this on big project. CSS's files are better. It's for l
 
 
 ## Table of contents
-1. [General](#user-content-general)
+1. [General & Global](#user-content-general--global)
 2. [Borders](#user-content-borders)
-3. [Fonts](#user-content-font)
-4. [Colors & Background's Color](#user-content-colors)
+3. [Fonts](#user-content-fonts)
+4. [Colors & Background's Color](#user-content-colors--backgrounds-color)
 5. [Display](#user-content-display)
 6. [Height](#user-content-height)
 7. [Margin](#user-content-margin)
@@ -182,7 +182,7 @@ Using ```bs-h_value``` where ```value``` can be written as you write it usually.
 Using ```bs-ma_value``` where ```value``` can be written as you write it usually. Example ? ```bs-ma_15px```. Percentage is working too.
 
 **Multiple example** : ```bs-ma_12px-23px``` or ```bs-ma_10px-15px-20px``` or ```bs-ma_5px-10px-15px-20px```
-## 0verflow
+## Overflow
 <a name="#overflow"></a><a name="8.1"></a>
 [8.1](#overflow) **Height**: Set overflow.
 
