@@ -5,7 +5,7 @@
 ClaCss is a super cool tool to write css with class (as color, margin, etc...).
 It's light but	nevertheless insane.
 
-  - Extra light (under 250 lines of code)
+  - Extra light (under 270 lines of code)
   - Flexible
   - Magic
   - You can apply :hover
