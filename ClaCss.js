@@ -62,7 +62,6 @@ const c = function(t, custom_length) {
     return (typeof custom_length !== 'undefined') 
             ? s.substring(0, custom_length) === t 
             : s.substring(0, l) === t;
-    console.log('GROS FDP');
 }
 // change.
 const ch = function(js, replace) {
@@ -116,12 +115,13 @@ const bsApply = function(s) {
         }
     }
 }
+
 class hoverClass {
     recognize(el) {
         sl = s.length,
             prperty = rP(s),
             l = prperty.length;
-            
+
         hoverOptions = 1;
         return bsApply(s);
         hoverOptions = 0;
@@ -163,11 +163,15 @@ class r {
                 }
             }
         }
-        // si les deux premières lettres sont égale à bo
+        
+        // first two letters === bo-
         if (c(border_arr[0] + '-', 3)) {
-            checkLoop(border_arr, borderStr, round_arr);
+                checkLoop(border_arr, borderStr, round_arr);
+
         } else if (c(border_radius_arr[0], 4)) { // border-radius
             checkLoop(border_radius_arr, borderStr, round_arr_detailed, 'Radius', 'multiple');
+        } else if (c(border_arr[0], 2)) { // === bo only 
+            checkLoop(border_arr, borderStr, round_arr);
         }
         return bsApply(s);
     }
@@ -179,7 +183,7 @@ var fillLetters = [],
     resGroupedH = [],
     aPos = [],
     aPosH = [],
-    strBody = d.body.innerHTML,
+    strBody,
     pos, posH, cls;
 
 const jAndR = function(type) {
@@ -198,6 +202,7 @@ const jAndR = function(type) {
         fillLetters = resGrouped = [];
     }
 }
+
 const checkPosi = function (str, p, ele, type) {
     var beforeStart = str.charAt(p - ele.length - 1),
         conditionEqualComaEmpt = beforeStart === comma || beforeStart === sp_comma || beforeStart === empt;
@@ -215,6 +220,7 @@ const checkPosi = function (str, p, ele, type) {
         type === 'hover' ? jAndR('hover') : jAndR();
     }
 }
+
 function findAndR(p, a, bs_el, type) {
     type = (typeof type !== 'undefined') ? type : '';
     (function () {
@@ -234,15 +240,21 @@ function findAndR(p, a, bs_el, type) {
 }
 
 // to launch immediatly, get the position 'bs-' && 'bsh-'
-(function () {
+function posChecked() {
+    strBody = d.body.innerHTML;
     pos = strBody.indexOf(bs_);
     pos_hover = strBody.indexOf(bs_hover);
-})();
-// Basic bs-
-if (pos !== -1) {
-    findAndR(pos, aPos, bs_, '');
-}
-// hover
-if (pos_hover !== -1) {
-    findAndR(pos_hover, aPosH, bs_hover, 'hover');
-}
+    
+    // Basic bs-
+    if (pos !== -1) {
+        findAndR(pos, aPos, bs_, '');
+    }
+    // hover
+    if (pos_hover !== -1) {
+        findAndR(pos_hover, aPosH, bs_hover, 'hover');
+    }
+};
+
+document.addEventListener("DOMContentLoaded", function(event) {
+    posChecked();
+  });
