@@ -29,9 +29,7 @@ It's for little project. I don't recommend to use this on big project. CSS's fil
 11. [Text-align](#text-align)
 12. [Vertical-align](#vertical-align)
 13. [Width](#width)
-
 14. [Hover](#hover)
-
 15. [Save a config](#saveconf)
 16. [Use saved confi](#useconf)
 
@@ -99,10 +97,11 @@ If you're more interested, check *documentation*.
 To make changement, we use HTML DOM Style Object.
 The documentation is available [here](http://www.w3schools.com/jsref/dom_obj_style.asp).
 
-For example, you can change any property available on documentation's list. For this, find the property you want and write ```yourProperty_value``` where ```value``` is the of the property you want to.
-An example ?  ```overflowY_scroll ``` will set an  ```overflowY``` with an  ```scroll```.
+For example, you can change any property available on documentation's list. For this, find the property you want and write ```bs-yourProperty_value``` where ```value``` is the of the property you want to.
+An example ?  ```bs-overflowY_scroll ``` will set an  ```overflowY``` with an  ```scroll```.
 
 Don't forget to add ```-m``` OR ```_m``` to specify that's a multiple value.
+Don't forget to add ```bs-```
 
 ## Borders
 ### Borders
