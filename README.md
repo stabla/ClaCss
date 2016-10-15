@@ -30,7 +30,7 @@ It's for little project. I don't recommend to use this on big project. CSS's fil
 12. [Vertical-align](#vertical-align)
 13. [Width](#width)
 14. [Hover](#hover)
-15. [Save a configuration](#save-configuration)
+15. [Save configuration](#save-configuration)
 16. [Use saved configuration](#use-configuration)
 
 
