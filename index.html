@@ -36,7 +36,7 @@
 
 <p>For information, ClaCss is a component of <a href="">Basesign</a> which provide clever css classes to use, and write less css as possible. But you can also use ClaCss.js if you don't use <a href="">Basesign</a>.</p>
 
-<p>It's for little project. I don't recommend to use this on big project. CSS's files are better. </p>
+<p>It's for little project. I don't recommend to use this on big project. CSS's files are better.</p>
 
 <h2>
 <a id="table-of-contents" class="anchor" href="#table-of-contents" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Table of contents</h2>
@@ -46,14 +46,9 @@
 <li><a href="#borders">Borders</a></li>
 <li><a href="#fonts">Fonts</a></li>
 <li><a href="#colors--backgrounds-color">Colors &amp; Background's Color</a></li>
-<li><a href="#display">Display</a></li>
 <li><a href="#height">Height</a></li>
 <li><a href="#margin">Margin</a></li>
-<li><a href="#overflow">Overflow</a></li>
 <li><a href="#padding">Padding</a></li>
-<li><a href="#position">Position</a></li>
-<li><a href="#text-align">Text-align</a></li>
-<li><a href="#vertical-align">Vertical-align</a></li>
 <li><a href="#width">Width</a></li>
 <li><a href="#hover">Hover</a></li>
 <li><a href="#save-configuration">Save configuration</a></li>
@@ -82,17 +77,7 @@
 </li>
 <li>Width : <code>w</code>
 </li>
-<li>Position : <code>po</code>
-</li>
-<li>Overflow : <code>o</code>
-</li>
 <li>Top : <code>t</code> / Right : <code>r</code> / Bottom : <code>b</code> / Left : <code>l</code>
-</li>
-<li>Text-align : <code>t-a</code>
-</li>
-<li>Vertical-align : <code>v-a</code>
-</li>
-<li>Display : <code>d</code>
 </li>
 </ul>
 
@@ -117,7 +102,7 @@
 <h3>
 <a id="example" class="anchor" href="#example" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Example</h3>
 
-<p>Want to make color on a div really fast ? </p>
+<p>Want to make color on a div really fast ?</p>
 
 <pre><code>&lt;div class="c_#333"&gt; &lt;/div
 </code></pre>
@@ -133,6 +118,10 @@
 Multiple's value example : <code>ma_12px-23px</code> or <code>ma_10px-15px-20px</code> or <code>ma_5px-10px-15px-20px</code></p>
 
 <p>When you're using multiple values but it's an javascript's style object (not included in ClaCss.js's conf), like for example <code>transition_value</code> add <code>-m</code> or  <code>_m</code> to specify that is a multiple value.</p>
+
+<p>Thus, it will be:</p>
+
+<p><strong>Example</strong> : <code>ma_5px-10px-15px-20px_m</code>.</p>
 
 <h5>
 <a id="what-can-i-use-as-value" class="anchor" href="#what-can-i-use-as-value" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>What can I use as value?</h5>
@@ -163,8 +152,9 @@ The documentation is available <a href="http://www.w3schools.com/jsref/dom_obj_s
 <p>For example, you can change any property available on documentation's list. For this, find the property you want and write <code>bs-yourProperty_value</code> where <code>value</code> is the of the property you want to.
 An example ?  <code>bs-overflowY_scroll</code> will set an  <code>overflowY</code> with an  <code>scroll</code>.</p>
 
-<p>Don't forget to add <code>-m</code> OR <code>_m</code> to specify that's a multiple value.
-Don't forget to add <code>bs-</code></p>
+<p><strong>Don't forget to add <code>-m</code> OR <code>_m</code> to specify that's a multiple value.</strong></p>
+
+<p><strong>Don't forget to add <code>bs-</code> before your property when it's not a available short-hand.</strong></p>
 
 <h2>
 <a id="borders" class="anchor" href="#borders" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Borders</h2>
@@ -175,7 +165,7 @@ Don't forget to add <code>bs-</code></p>
 <p><a name="#borders-border"></a><a name="2.1.1"></a>
 <a href="#borders-border">2.1.1</a> <strong>Border</strong>: Basic of border.</p>
 
-<p>By using <code>bo_value</code> where <code>value</code> can be written as this : <code>1px-solid-red</code>. It will be a border of 1px with solid pixel in red color. </p>
+<p>By using <code>bo_value</code> where <code>value</code> can be written as this : <code>1px-solid-red</code>. It will be a border of 1px with solid pixel in red color.</p>
 
 <p><a name="#border-t"></a><a name="2.1.2"></a>
 <a href="#border-t">2.1.2</a> <strong>Border Top</strong>: Top border.</p>
@@ -203,7 +193,7 @@ Don't forget to add <code>bs-</code></p>
 <p><a name="#border-radius"></a><a name="2.2"></a>
 <a href="#border-radius">2.2</a> <strong>Border radius</strong>: Basic of border radius.</p>
 
-<p>By using <code>bora_value</code> where <code>value</code> can be written as this : <code>10px</code>. It will be a border-radius of 10px. </p>
+<p>By using <code>bora_value</code> where <code>value</code> can be written as this : <code>10px</code>. It will be a border-radius of 10px.</p>
 
 <p><a name="#border-radius-side"></a><a name="2.2.1"></a>
 <a href="#border-radius-side">2.2.1</a> <strong>Border radius side</strong>: Side of border-radius.
@@ -224,7 +214,7 @@ As same logical than <code>border-r</code> or <code>border-t</code>, you can use
 <p>And what is you want to set topLeft for border-radius ?
 Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl</code> OR <code>br</code>.</p>
 
-<p>An example :    <code>bora-t_10px</code> will set border_radius for all top with 10px. </p>
+<p>An example :    <code>bora-t_10px</code> will set border_radius for all top with 10px.</p>
 
 <h2>
 <a id="fonts" class="anchor" href="#fonts" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Fonts</h2>
@@ -244,7 +234,7 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 
 <p>Using <code>f-f_value</code> where <code>value</code> can be written as you write font-family generally.</p>
 
-<p>Example : <code>f-f_Merriweather</code> </p>
+<p>Example : <code>f-f_Merriweather</code></p>
 
 <h2>
 <a id="colors--backgrounds-color" class="anchor" href="#colors--backgrounds-color" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Colors &amp; Background's Color</h2>
@@ -258,14 +248,6 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 <a href="#background-color">4.2</a> <strong>Background-color</strong>: Set background-color.</p>
 
 <p>Using <code>bg-c_value</code> where <code>value</code> can be written as you write it usually.</p>
-
-<h2>
-<a id="display" class="anchor" href="#display" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Display</h2>
-
-<p><a name="#display"></a><a name="5.1"></a>
-<a href="#display">5.1</a> <strong>Display</strong>: Set display.</p>
-
-<p>Using <code>d_value</code> where <code>value</code> can be written as you write it usually. It can be inline, inline-block, none, block, etc...</p>
 
 <h2>
 <a id="height" class="anchor" href="#height" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Height</h2>
@@ -286,14 +268,6 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 <p><strong>Multiple example</strong> : <code>ma_12px-23px</code> or <code>ma_10px-15px-20px</code> or <code>ma_5px-10px-15px-20px</code></p>
 
 <h2>
-<a id="overflow" class="anchor" href="#overflow" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Overflow</h2>
-
-<p><a name="#overflow"></a><a name="8.1"></a>
-<a href="#overflow">8.1</a> <strong>Height</strong>: Set overflow.</p>
-
-<p>Using <code>o_value</code> where <code>value</code> can be written as you write it usually. It can be visible, hidden, scroll, auto, etc..</p>
-
-<h2>
 <a id="padding" class="anchor" href="#padding" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Padding</h2>
 
 <p><a name="#padding"></a><a name="9.1"></a>
@@ -302,30 +276,6 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 <p>Using <code>pa_value</code> where <code>value</code> can be written as you write it usually. Example ? <code>pa_15px</code>. Percentage is working too.</p>
 
 <p><strong>Multiple example</strong> : <code>pa_12px-23px</code> or <code>pa_10px-15px-20px</code> or <code>pa_5px-10px-15px-20px</code></p>
-
-<h2>
-<a id="position" class="anchor" href="#position" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Position</h2>
-
-<p><a name="#position"></a><a name="10.1"></a>
-<a href="#position">10.1</a> <strong>Position</strong>: Set position.</p>
-
-<p>Using <code>p_value</code> where <code>value</code> can be written as you write it usually. It can be relative, absolute, fixed</p>
-
-<h2>
-<a id="text-align" class="anchor" href="#text-align" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Text-align</h2>
-
-<p><a name="#text-align"></a><a name="11.1"></a>
-<a href="#text-align">11.1</a> <strong>Text-align</strong>: Set text-align.</p>
-
-<p>Using <code>t-a_value</code> where <code>value</code> can be written as you write it usually. It can be center, left, right, justify, etc...</p>
-
-<h2>
-<a id="vertical-align" class="anchor" href="#vertical-align" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Vertical-align</h2>
-
-<p><a name="#vertical-align"></a><a name="12.1"></a>
-<a href="#vertical-align">12.1</a> <strong>Vertical-align</strong>: Set vertical-align.</p>
-
-<p>Using <code>v-a-a_value</code> where <code>value</code> can be written as you write it usually. It can be baseline, middle, bottom, etc...</p>
 
 <h2>
 <a id="width" class="anchor" href="#width" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Width</h2>
@@ -341,7 +291,7 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 <p><a name="#hover"></a><a name="14.1"></a>
 <a href="#hover">14.1</a> <strong>Hover</strong>: Set an :hover.</p>
 
-<p>Using <code>property_value:hover</code> where <code>property</code> is the property you want to set your hover and where <code>value</code> can be written as you write it usually. </p>
+<p>Using <code>property_value:hover</code> where <code>property</code> is the property you want to set your hover and where <code>value</code> can be written as you write it usually.</p>
 
 <p>Example : <code>c_green:hover</code></p>
 
@@ -351,13 +301,13 @@ Than, you have the choice between <code>tl</code> OR <code>tr</code> OR <code>bl
 <p><a name="#saveconf"></a><a name="15.1"></a>
 <a href="#saveconf">15.1</a> <strong>Save configuration</strong>: Save configuration.</p>
 
-<p>You can save all the property you have setted in your class. For this, use <code>sc-nameOfYourConfig</code>, sc- is to specify it's an saving, and obviously, <code>nameOfYourConfig</code> is the name you want to give it. </p>
+<p>You can save all the property you have setted in your class. For this, use <code>sc-nameOfYourConfig</code>, sc- is to specify it's an saving, and obviously, <code>nameOfYourConfig</code> is the name you want to give it.</p>
 
 <p>Use one unique name per configuration.
 Example : <code>sc-Trumpostrophic</code> will save your config.</p>
 
 <p>Save your config at the last to save all classes before.
-Example : <code>&lt;div class="c_red bg-c_white pa_20% sc-Trumpostrophic"&gt;</code> will save color, bg-c and padding in Trumpostrophic. </p>
+Example : <code>&lt;div class="c_red bg-c_white pa_20% sc-Trumpostrophic"&gt;</code> will save color, bg-c and padding in Trumpostrophic.</p>
 
 <h2>
 <a id="use-configuration" class="anchor" href="#use-configuration" aria-hidden="true"><span aria-hidden="true" class="octicon octicon-link"></span></a>Use configuration</h2>
