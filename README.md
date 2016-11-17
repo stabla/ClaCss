@@ -96,6 +96,7 @@ For example, you can change any property available on documentation's list. For 
 An example ?  ```bs-overflowY_scroll ``` will set an  ```overflowY``` with an  ```scroll```.
 
 **Don't forget to add ```-m``` OR ```_m``` to specify that's a multiple value.**
+
 **Don't forget to add ```bs-``` before your property when it's not a available short-hand.**
 
 ## Borders
