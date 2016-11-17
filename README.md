@@ -12,26 +12,21 @@ ClaCss is a super cool tool to write css with class (as color, margin, etc...).
 
 For information, ClaCss is a component of [Basesign]() which provide clever css classes to use, and write less css as possible. But you can also use ClaCss.js if you don't use [Basesign]().
 
-It's for little project. I don't recommend to use this on big project. CSS's files are better. 
+It's for little project. I don't recommend to use this on big project. CSS's files are better.
 
 
 ## Table of contents
 1. [General & Global](#general--global)
-2. [Borders](#borders)
-3. [Fonts](#fonts)
-4. [Colors & Background's Color](#colors--backgrounds-color)
-5. [Display](#display)
-6. [Height](#height)
-7. [Margin](#margin)
-8. [Overflow](#overflow)
-9. [Padding](#padding)
-10. [Position](#position)
-11. [Text-align](#text-align)
-12. [Vertical-align](#vertical-align)
-13. [Width](#width)
-14. [Hover](#hover)
-15. [Save configuration](#save-configuration)
-16. [Use saved configuration](#use-configuration)
+1. [Borders](#borders)
+1. [Fonts](#fonts)
+1. [Colors & Background's Color](#colors--backgrounds-color)
+1. [Height](#height)
+1. [Margin](#margin)
+1. [Padding](#padding)
+1. [Width](#width)
+1. [Hover](#hover)
+1. [Save configuration](#save-configuration)
+1. [Use saved configuration](#use-configuration)
 
 
 ## List of short-hand's included property
@@ -44,18 +39,13 @@ It's for little project. I don't recommend to use this on big project. CSS's fil
 - Padding : ```pa```
 - Height : ```h```
 - Width : ```w```
-- Position : ```po```
-- Overflow : ```o```
 - Top : ```t``` / Right : ```r``` / Bottom : ```b``` / Left : ```l```
-- Text-align : ```t-a```
-- Vertical-align : ```v-a```
-- Display : ```d```
 
 (Want to add something ? Contact me or go on GitHub)
 
 ### Download
     bower install ClaCss
- 
+
  or check [project's website](https://idkn.github.io/ClaCss)
 
 ### Installation
@@ -64,7 +54,7 @@ It's for little project. I don't recommend to use this on big project. CSS's fil
 Just locate the js file, and let the magic explain itself (and write class, magic need little help)
 
 ### Example
-Want to make color on a div really fast ? 
+Want to make color on a div really fast ?
 ```
 <div class="c_#333"> </div
 ```
@@ -78,6 +68,11 @@ If you have multiple property's value use '**-**' to space each value.
 Multiple's value example : ```ma_12px-23px``` or ```ma_10px-15px-20px``` or ```ma_5px-10px-15px-20px```
 
 When you're using multiple values but it's an javascript's style object (not included in ClaCss.js's conf), like for example ```transition_value``` add ```-m``` or  ```_m``` to specify that is a multiple value.
+
+Thus, it will be:
+
+**Example** : ```ma_5px-10px-15px-20px_m```.
+
 
 ##### What can I use as value?
 *For color property*, you can use as value :
@@ -93,22 +88,22 @@ If you're more interested, check *documentation*.
 
   <a name="#general"></a><a name="1.1"></a>
 [1.1](#general) **General**: Global solution.
- 
+
 To make changement, we use HTML DOM Style Object.
 The documentation is available [here](http://www.w3schools.com/jsref/dom_obj_style.asp).
 
 For example, you can change any property available on documentation's list. For this, find the property you want and write ```bs-yourProperty_value``` where ```value``` is the of the property you want to.
 An example ?  ```bs-overflowY_scroll ``` will set an  ```overflowY``` with an  ```scroll```.
 
-Don't forget to add ```-m``` OR ```_m``` to specify that's a multiple value.
-Don't forget to add ```bs-```
+**Don't forget to add ```-m``` OR ```_m``` to specify that's a multiple value.**
+**Don't forget to add ```bs-``` before your property when it's not a available short-hand.**
 
 ## Borders
 ### Borders
   <a name="#borders-border"></a><a name="2.1.1"></a>
 [2.1.1](#borders-border) **Border**: Basic of border.
-  
-By using ```bo_value``` where ```value``` can be written as this : ```1px-solid-red```. It will be a border of 1px with solid pixel in red color. 
+
+By using ```bo_value``` where ```value``` can be written as this : ```1px-solid-red```. It will be a border of 1px with solid pixel in red color.
 
 <a name="#border-t"></a><a name="2.1.2"></a>
 [2.1.2](#border-t) **Border Top**: Top border.
@@ -134,7 +129,7 @@ Using ```bo-l_value``` where ```value``` can be written as the same way is [2.1.
 <a name="#border-radius"></a><a name="2.2"></a>
 [2.2](#border-radius) **Border radius**: Basic of border radius.
 
-By using ```bora_value``` where ```value``` can be written as this : ```10px```. It will be a border-radius of 10px. 
+By using ```bora_value``` where ```value``` can be written as this : ```10px```. It will be a border-radius of 10px.
 
 <a name="#border-radius-side"></a><a name="2.2.1"></a>
 [2.2.1](#border-radius-side) **Border radius side**: Side of border-radius.
@@ -156,7 +151,7 @@ l for left
 And what is you want to set topLeft for border-radius ?
 Than, you have the choice between ```tl``` OR ```tr``` OR ```bl``` OR ```br```.
 
-An example :    ```bora-t_10px``` will set border_radius for all top with 10px. 
+An example :    ```bora-t_10px``` will set border_radius for all top with 10px.
 
 ## Fonts
 <a name="#font-size"></a><a name="3.1"></a>
@@ -174,7 +169,7 @@ Using ```f-w_value``` where ```value``` can be written as you write font-weight 
 
 Using ```f-f_value``` where ```value``` can be written as you write font-family generally.
 
-Example : ```f-f_Merriweather``` 
+Example : ```f-f_Merriweather```
 
 ## Colors & Background's Color
 <a name="#color"></a><a name="4.1"></a>
@@ -186,12 +181,6 @@ Using ```c_value``` where ```value``` can be written in color name (red, blue, g
 [4.2](#background-color) **Background-color**: Set background-color.
 
 Using ```bg-c_value``` where ```value``` can be written as you write it usually.
-
-## Display
-<a name="#display"></a><a name="5.1"></a>
-[5.1](#display) **Display**: Set display.
-
-Using ```d_value``` where ```value``` can be written as you write it usually. It can be inline, inline-block, none, block, etc...
 
 ## Height
 <a name="#height"></a><a name="6.1"></a>
@@ -205,11 +194,6 @@ Using ```h_value``` where ```value``` can be written as you write it usually. It
 Using ```ma_value``` where ```value``` can be written as you write it usually. Example ? ```ma_15px```. Percentage is working too.
 
 **Multiple example** : ```ma_12px-23px``` or ```ma_10px-15px-20px``` or ```ma_5px-10px-15px-20px```
-## Overflow
-<a name="#overflow"></a><a name="8.1"></a>
-[8.1](#overflow) **Height**: Set overflow.
-
-Using ```o_value``` where ```value``` can be written as you write it usually. It can be visible, hidden, scroll, auto, etc..
 
 ## Padding
 <a name="#padding"></a><a name="9.1"></a>
@@ -219,22 +203,6 @@ Using ```pa_value``` where ```value``` can be written as you write it usually. E
 
 **Multiple example** : ```pa_12px-23px``` or ```pa_10px-15px-20px``` or ```pa_5px-10px-15px-20px```
 
-## Position
-<a name="#position"></a><a name="10.1"></a>
-[10.1](#position) **Position**: Set position.
-
-Using ```p_value``` where ```value``` can be written as you write it usually. It can be relative, absolute, fixed
-## Text-align
-<a name="#text-align"></a><a name="11.1"></a>
-[11.1](#text-align) **Text-align**: Set text-align.
-
-Using ```t-a_value``` where ```value``` can be written as you write it usually. It can be center, left, right, justify, etc...
-
-## Vertical-align
-<a name="#vertical-align"></a><a name="12.1"></a>
-[12.1](#vertical-align) **Vertical-align**: Set vertical-align.
-
-Using ```v-a-a_value``` where ```value``` can be written as you write it usually. It can be baseline, middle, bottom, etc...
 ## Width
 <a name="#width"></a><a name="13.1"></a>
 [13.1](#width) **Width**: Set width.
@@ -246,7 +214,7 @@ Using ```w_value``` where ```value``` can be written as you write it usually. It
 <a name="#hover"></a><a name="14.1"></a>
 [14.1](#hover) **Hover**: Set an :hover.
 
-Using ```property_value:hover``` where ```property``` is the property you want to set your hover and where ```value``` can be written as you write it usually. 
+Using ```property_value:hover``` where ```property``` is the property you want to set your hover and where ```value``` can be written as you write it usually.
 
 Example : ```c_green:hover```
 
@@ -254,13 +222,13 @@ Example : ```c_green:hover```
 <a name="#saveconf"></a><a name="15.1"></a>
 [15.1](#saveconf) **Save configuration**: Save configuration.
 
-You can save all the property you have setted in your class. For this, use ```sc-nameOfYourConfig```, sc- is to specify it's an saving, and obviously, ```nameOfYourConfig``` is the name you want to give it. 
+You can save all the property you have setted in your class. For this, use ```sc-nameOfYourConfig```, sc- is to specify it's an saving, and obviously, ```nameOfYourConfig``` is the name you want to give it.
 
 Use one unique name per configuration.
 Example : ```sc-Trumpostrophic``` will save your config.
 
 Save your config at the last to save all classes before.
-Example : ``` <div class="c_red bg-c_white pa_20% sc-Trumpostrophic"> ``` will save color, bg-c and padding in Trumpostrophic. 
+Example : ``` <div class="c_red bg-c_white pa_20% sc-Trumpostrophic"> ``` will save color, bg-c and padding in Trumpostrophic.
 
 
 ## Use configuration

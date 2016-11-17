@@ -5,8 +5,8 @@ const BS = 'bs-';
 const BSSC = 'sc-';
 const BSUC = 'uc-';
 // == property name's
-const CONF = ['bg-c', 'c', 'f-s', 'f-w', 'f-f', 'ma', 'pa', 'h', 'w', 'po', 'o', 't', 'r', 'b', 'l', 't-a', 'v-a', 'd'];
-const CONF_EQUIVALENT = ['backgroundColor', 'color', 'fontSize', 'fontWeight', 'fontFamily', 'margin', 'padding', 'height', 'width', 'position', 'overflow', 'top', 'right', 'bottom', 'left', 'textAlign', 'verticalAlign', 'display'];
+const CONF = ['bg-c', 'c', 'f-s', 'f-w', 'f-f', 'ma', 'pa', 'h', 'w', 't', 'r', 'b', 'l'];
+const CONF_EQUIVALENT = ['backgroundColor', 'color', 'fontSize', 'fontWeight', 'fontFamily', 'margin', 'padding', 'height', 'width', 'top', 'right', 'bottom', 'left'];
 
 const BORDER_ARR = ['bo', 'bo-t', 'bo-r', 'bo-b', 'bo-l'];
 const BORDER_RADIUS_ARR = ['bora', 'bora-t', 'bora-tl', 'bora-tr', 'bora-r', 'bora-b', 'bora-bl', 'bora-br', 'bora-l'];
@@ -69,13 +69,13 @@ const rP = function (str) {
 }
 // check equality
 const c = function (t, custom_length) {
-    return (typeof custom_length !== 'undefined') 
-        ? s.substring(0, custom_length) === t 
+    return (typeof custom_length !== 'undefined')
+        ? s.substring(0, custom_length) === t
         : s.substring(0, prpl) === t;
 }
 
 const border_checking = function () {
-    // analyse when it's for one complete side 
+    // analyse when it's for one complete side
     const oneSide = function (str, val, opt) {
         var chIt = function (x) {
             ch(str + x + val + opt);
@@ -96,7 +96,7 @@ const border_checking = function () {
         more = (typeof more !== 'undefined') ? more : '';
         for (var i = 0;; i++) {
             if (c(ele[i])) {
-                // multiple means there's TopLeft/BottomRight options, it's activated. 
+                // multiple means there's TopLeft/BottomRight options, it's activated.
                 if (more === 'multiple' && getPosFromArr(arr[i], ['Top', 'Left', 'Bottom', 'Right']) !== undefined) {
                     oneSide(str_el, arr[i], opt);
                 } else {
@@ -111,7 +111,7 @@ const border_checking = function () {
         checkLoop(BORDER_ARR, 'border', ROUND_ARR);
     } else if (c(BORDER_RADIUS_ARR[0], 4)) { // === border-radius
         checkLoop(BORDER_RADIUS_ARR, 'border', ROUND_ARR_DETAILED, 'Radius', 'multiple');
-    } else if (c(BORDER_ARR[0], 2)) { // === bo only 
+    } else if (c(BORDER_ARR[0], 2)) { // === bo only
         checkLoop(BORDER_ARR, 'border', ROUND_ARR);
     }
 }
@@ -197,7 +197,7 @@ const ch = function (js, replace) {
         hoverOptions = 1;
         elementVal = s.substring(prpl + 1, sl - 6);
     }
-    
+
     // check if there's TopLeft, or something similar.
     if (checkIfMultiple(elementVal)) {
         elementVal = stripTwoLast(elementVal);
@@ -235,7 +235,7 @@ const ch = function (js, replace) {
 const bsApply = function (s) {
     for (var i = 0;; i++) {
         var positionInConf = getPosFromArr(prperty, CONF);
-        
+
         if (getPosFromArr(prperty, CONF) !== undefined) {
             if (prperty === 'f-a' || prperty === 'f-f' || prperty === 'ma' || prperty === 'pa') {
                 ch(CONF_EQUIVALENT[positionInConf], 1);
@@ -398,7 +398,7 @@ const bs_launch = function () {
         findWhereElementsAre(strBody.indexOf(BSUC), aPosUC, BSUC, 'useConf');
         doChangement(strBody.indexOf(BSUC), aPosUC, 'useConf');
     }
-    // apply changement and style for all position. The last property is applied. 
+    // apply changement and style for all position. The last property is applied.
     for (var i = 0; i < propPositions.length; i++) {
         fillLetters = checkAllRule(strBody, propPositions[i]);
         applyBS(strBody, propPositions[i], '');
