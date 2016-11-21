@@ -242,7 +242,7 @@ So far, so good ?
 
 # License
 
-ClaCss by Guillaume Bonnet [@idkn on Github](https://github.com/idkn) is licensed under MIT.
+ClaCss by Guillaume Bonnet [@stabla on Github](https://github.com/stabla) is licensed under MIT.
 
 # Improvement
 Check code. Write code. Push code.
