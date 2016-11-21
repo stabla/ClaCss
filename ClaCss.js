@@ -1,4 +1,4 @@
-/* ClaCss.js | (c) 2016 Github @idkn | https://github.com/idkn/ClaCss */
+/* ClaCss.js | (c) 2016 Github @stabla | https://github.com/stabla/ClaCss */
 
 // == structure variables
 const BS = 'bs-';
