@@ -46,7 +46,7 @@ It's for little project. I don't recommend to use this on big project. CSS's fil
 ### Download
     bower install ClaCss
 
- or check [project's website](https://idkn.github.io/ClaCss)
+ or check [project's website](https://stabla.github.io/ClaCss)
 
 ### Installation
     <script src="ClaCss.js"></script>
