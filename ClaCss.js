@@ -356,7 +356,6 @@ const bs_launch = function () {
         if (filterBeforeAfter(strBody.indexOf(x), x)) {
             p = strBody.indexOf(x);
             if (p !== -1) {
-                // il y a bien rien devant la classe, donc c'est bien à changer.
                 propPositions = findWhereElementsAre(p, aPos, x, '');
             }
         } else {
