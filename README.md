@@ -1,6 +1,4 @@
-# ClaCss.js (Complete)
-
-(Complete mean it's without Basesign. If you want the Basesign version, click here. Or check the Basesign's page).
+# ClaCss.js
 
 ClaCss is a super cool tool to write css with class (as color, margin, etc...).
 
