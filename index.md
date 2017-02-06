@@ -4,6 +4,8 @@
 
 ClaCss is a super cool tool to write css with class (as color, margin, etc...).
 
+#### It's a personnal project, learned a lot from. But I understand if you think it's useless or if you consider that writting many classes is messy. Because, yes, it is.
+
   - Flexible
   - Magic
   - You can apply :hover
