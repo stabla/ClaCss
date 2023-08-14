@@ -237,7 +237,7 @@ Example : ``` <div class="c_red bg-c_white pa_20% sc-Trumpostrophic"> ``` will s
 
 To use configuration : ```uc-nameOfYourConfiguration```, where ```nameOfYourConfiguration``` is the name you have given to your config. For our previous example, we'll use ```uc-Trumpostrophic``` to apply ```c_red bg-c_white pa_20%```.
 
-So far, so good ?
+So far, so good?
 
 # License
 
